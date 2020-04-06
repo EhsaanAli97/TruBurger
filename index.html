@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>TruBurger</title>
+		<!-- Font Awesome CDN -->
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css"
+		/>
+
+		<!--Scroll reveal CDN-->
+		<script src="https://unpkg.com/scrollreveal"></script>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<!-- Start Header Area -->
+		<header>
+			<div class="container">
+				<nav class="nav">
+					<div class="menu-toggle">
+						<!-- HAMBURGER MENU -->
+						<i class="fas fa-bars"></i>
+						<i class="fas fa-times"></i>
+					</div>
+
+					<ul class="nav-list item-toggle">
+						<li class="nav-item">
+							<a href="index.html" class="nav-link active">Home</a>
+						</li>
+
+						<li class="nav-item">
+							<a href="#discover" class="nav-link active">About</a>
+						</li>
+
+						<li class="nav-item">
+							<a href="#view-menu" class="nav-link active">Menu</a>
+						</li>
+
+						<li class="nav-item">
+							<a href="#contact" class="nav-link active">Contact</a>
+						</li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+		<!-- End Header Area -->
+
+		<!-- Start Hero Area -->
+		<section class="hero" id="hero">
+			<div class="container">
+				<h2 class="sub-headline"><span class="first-letter">W</span>elcome</h2>
+				<h1 class="headline">
+					Tru Burger!
+				</h1>
+				<!--  -->
+				<div class="headline-description">
+					<!--  -->
+					<div class="separator">
+						<div class="line line-left"></div>
+						<div class="asterisk">
+							<i class="fas fa-asterisk"></i>
+						</div>
+						<div class="line line-right"></div>
+					</div>
+					<!--  -->
+					<div class="single-animation">
+						<h5>Breakfast - Burgers - Steaks</h5>
+						<a href="#discover" class="btn cta-btn">Explore</a>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- End Hero Area -->
+
+		<!-- Start Discover Area -->
+		<section class="discover-our-story" id="discover">
+			<div class="container">
+				<div class="restaurant-info">
+					<div class="restaurant-desc padding-right animate-left">
+						<div class="global-headline">
+							<h2 class="sub-headline">
+								<span class="first-letter">D</span>iscover
+							</h2>
+							<h1 class="headline headline-dark">
+								Our Story
+							</h1>
+							<div class="asterisk">
+								<i class="fas fa-asterisk"></i>
+							</div>
+						</div>
+						<p>
+							At TRU Burger we take the same care and attention to detail from
+							the first burger we serve to the last burger. Using only the
+							finest and freshest ingredients we can guarantee that our burgers
+							will leave you satisfied.
+						</p>
+					</div>
+					<div class="restaurant-info-img animate-right">
+						<img src="./img/our-story.jpg" alt="Our-Story" />
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- End Discover Area -->
+
+		<!-- Start Recipes Area -->
+		<section class="recipes between">
+			<div class="container">
+				<div class="global-headline">
+					<div class="animate-top">
+						<h2 class="sub-headline">
+							<span class="first-letter">T</span>asteful
+						</h2>
+					</div>
+					<div class="animate-bottom">
+						<h1 class="headline">
+							Recipes
+						</h1>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- End Recipes Area -->
+
+		<!-- Start Menu Area -->
+		<section class="menu" id="view-menu">
+			<div class="container">
+				<div class="restaurant-info">
+					<div class="img-group padding-right animate-left">
+						<img src="img/breakfast.jpg" alt="Menu1" />
+						<img src="img/burger.jpg" alt="Menu2" />
+						<img src="img/steak.jpg" alt="Menu3" />
+						<img src="img/burger2.jpg" alt="Menu4" />
+					</div>
+					<div class="restaurant-desc animate-right">
+						<div class="global-headline">
+							<h2 class="sub-headline">
+								<span class="first-letter">D</span>iscover
+							</h2>
+							<h1 class="headline headline-dark">
+								Our Menu
+							</h1>
+							<div class="asterisk">
+								<i class="fas fa-asterisk"></i>
+							</div>
+						</div>
+						<p>
+							We specialise in breakfast, burgers and steaks. You can choose
+							from a wide range of options to satisfy your taste buds. View our
+							menu below.
+						</p>
+						<button class="btn body-btn" id="modal-btn">View Menu</button>
+					</div>
+					<div id="my-modal" class="modal">
+						<div class="modal-content">
+							<div class="modal-header">
+								<span class="close">&times;</span>
+							</div>
+							<div class="modal-body"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- End Menu Area -->
+
+		<!-- Start Blend Area -->
+		<section class="blend between">
+			<div class="container">
+				<div class="global-headline">
+					<div class="animate-top">
+						<h2 class="sub-headline">
+							<span class="first-letter">T</span>he Perfect
+						</h2>
+					</div>
+					<div class="animate-bottom">
+						<h1 class="headline">
+							Blend
+						</h1>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- End Blend Area -->
+
+		<!-- Start Culinary Area -->
+		<!-- <section class="culinary-delight">
+			<div class="container">
+				<div class="restaurant-info">
+					<div class="restaurant-desc padding-right animate-left">
+						<div class="global-headline">
+							<h2 class="sub-headline">
+								<span class="first-letter">C</span>ulinary
+							</h2>
+							<h1 class="headline headline-dark">
+								Delight
+							</h1>
+							<div class="asterisk">
+								<i class="fas fa-asterisk"></i>
+							</div>
+						</div>
+						<p>
+							Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam hic
+							deserunt labore dolor debitis delectus impedit, iusto similique
+							beatae repellendus quis, voluptatum eveniet ratione doloribus
+							sapiente et autem. Quia, reiciendis.
+						</p>
+						<a href="#" class="btn body-btn">Book a table</a>
+					</div>
+					<div class="img-group">
+						<img
+							class="animate-top"
+							src="./img/delight-group-1.jpg"
+							alt="Delight1"
+						/>
+						<img
+							class="animate-bottom"
+							src="./img/delight-group-2.jpg"
+							alt="Delight2"
+						/>
+					</div>
+				</div>
+			</div>
+		</section> -->
+		<!-- End Culinary Area -->
+
+		<!-- Start Footer Area -->
+		<footer id="contact">
+			<div class="container">
+				<div class="back-to-top">
+					<a href="#hero"> <i class="fas fa-chevron-up"></i> </a>
+				</div>
+				<div class="footer-content">
+					<div class="footer-content-about animate-top">
+						<h4>Contact Tru Burger</h4>
+						<div class="asterisk">
+							<i class="fas fa-asterisk"></i>
+						</div>
+					</div>
+
+					<div class="footer-content-divider animate-bottom">
+						<div class="address-container">
+							<h4>Address</h4>
+							<p>
+								369 Ladypool Rd, <br />
+								Birmingham B12 8LA
+							</p>
+						</div>
+
+						<div class="opening-hours-container">
+							<h4>Opening Hours</h4>
+							<p>
+								Mon - Thurs: 1pm - 11pm <br />
+								Fri: 1pm - 12am <br />
+								Sat : 10am - 12am <br />
+								Sun: 10am - 11pm<br />
+							</p>
+						</div>
+
+						<div class="contact-us-container">
+							<h4>Contact</h4>
+							<p>
+								0121 449 2356 <br />
+								info@truburger.co.uk
+							</p>
+						</div>
+
+						<div class="social-media">
+							<h4>Follow</h4>
+							<ul class="social-icons">
+								<li>
+									<a
+										href="https://www.facebook.com/Truburgeruk/"
+										target="_blank"
+										><i class="fab fa-facebook-square"></i
+									></a>
+								</li>
+								<li>
+									<a
+										href="https://www.instagram.com/truburger/?hl=en"
+										target="_blank"
+										><i class="fab fa-instagram"></i
+									></a>
+								</li>
+							</ul>
+						</div>
+					</div>
+
+					<div class="copyright animate-bottom">
+						<p>
+							Copyright &copy2020 All rights reserved
+						</p>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<!-- End Footer Area -->
+
+		<!-- Custom JS File -->
+		<script src="main.js"></script>
+	</body>
+</html>

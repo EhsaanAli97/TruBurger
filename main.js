@@ -12,12 +12,10 @@ window.addEventListener('click', outsideClick);
 function openModal() {
 	modal.style.display = 'block';
 }
-
 // Close
 function closeModal() {
 	modal.style.display = 'none';
 }
-
 // Close If Outside Click
 function outsideClick(e) {
 	if (e.target == modal) {
@@ -25,14 +23,12 @@ function outsideClick(e) {
 	}
 }
 
-//Select element function
 const selectElement = function (element) {
 	return document.querySelector(element);
 };
 
 let menuToggler = selectElement('.menu-toggle');
 let body = selectElement('body');
-// let navToggler = selectElement('.item-toggle');
 
 menuToggler.addEventListener('click', function () {
 	body.classList.toggle('open');
@@ -41,10 +37,6 @@ menuToggler.addEventListener('click', function () {
 $('a.nav-link').click(function () {
 	$('body').removeClass('open');
 });
-
-// navToggler.addEventListener('click', function () {
-// 	body.classList.toggle('open');
-// });
 
 // Scroll reveal
 window.sr = ScrollReveal();
